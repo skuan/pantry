@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  brand: MyString
+  expiration_date: MyString
+  cost: 1
+
+two:
+  name: MyString
+  brand: MyString
+  expiration_date: MyString
+  cost: 1
