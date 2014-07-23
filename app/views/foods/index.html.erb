@@ -1,0 +1,11 @@
+<h2>What's Inside?</h2>
+<ul>
+	<% @food.each do |food| %>
+		<li>
+		<%= food.name.capitalize %>
+		<%= food.brand.capitalize %>
+		<%= food.cost %>
+		<%= food.expiration_date %>
+		</li>
+	<% end %>
+</ul>
